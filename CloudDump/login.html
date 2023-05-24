@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f4f4f4;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .login-form {
+            display: none;
+        }
+
+        .toggle-btn {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+            .toggle-btn a {
+                color: #4CAF50;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login & Signup</h2>
+
+        <div id="login-form" class="login-form">
+            <form>
+                <label for="login-email">Email:</label>
+                <input type="text" id="login-email" placeholder="Enter your email">
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter your password">
+
+                <button type="submit" id="login-button">Login</button>
+            </form>
+            <div class="toggle-btn">
+                <p>Don't have an account? <a href="#" onclick="toggleForm()">Signup</a></p>
+            </div>
+        </div>
+
+        <div id="signup-form">
+            <form>
+                <label for="signup-email">Email:</label>
+                <input type="text" id="signup-email" placeholder="Enter your email">
+
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" placeholder="Enter your password">
+
+                <button type="submit" id="signup-button">Signup</button>
+            </form>
+            <div class="toggle-btn">
+                <p>Already have an account? <a href="#" onclick="toggleForm()">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function toggleForm() {
+      var loginForm = document.getElementById("login-form");
+      var signupForm = document.getElementById("signup-form");
+
+      if (loginForm.style.display === "none") {
+        loginForm.style.display = "block";
+        signupForm.style.display = "none";
+      } else {
+        loginForm.style.display = "none";
+        signupForm.style.display = "block";
+      }
+    }
+
+    // Add your login and signup functionality here
+    // You can use JavaScript to handle form submission and perform necessary actions
+    // such as making AJAX requests to a server for user authentication and storing user information.
+    </script>
+</body>
+</html>

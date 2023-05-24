@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "CloudDump", "CloudDump\CloudDump.njsproj", "{9820F8DD-743D-4E4C-B8B9-C12DBD53E39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9820F8DD-743D-4E4C-B8B9-C12DBD53E39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9820F8DD-743D-4E4C-B8B9-C12DBD53E39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9820F8DD-743D-4E4C-B8B9-C12DBD53E39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9820F8DD-743D-4E4C-B8B9-C12DBD53E39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB9DD211-0DCD-437B-A5FA-254998422EC4}
+	EndGlobalSection
+EndGlobal
