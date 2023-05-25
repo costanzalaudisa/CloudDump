@@ -1,0 +1,281 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://images.unsplash.com/photo-1517488629431-6427e0ee1e5f');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+display: flex;
+padding:100px;
+}
+
+.card_login{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card_sign_up{
+height: 180px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card_forgot_password{
+height: 140px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+h1{
+font-size: 40px;
+color:#000000;
+padding: 40px;
+background-color: #FFC312;
+width:300px;
+height: 100px;
+left: 20px;
+}
+
+h1:link{
+    color:#000000;
+    text-decoration:none; 
+}
+
+h1:active{
+    color:#000000;
+    text-decoration:none;
+}
+
+h1:visited{
+    color:#000000;
+    text-decoration:none; 
+}
+
+h1:hover{
+    color:#000000;
+    text-decoration:none;
+}
+
+h1:visited{
+    color:#000000;
+    text-decoration:none;
+}
+
+h3{
+text-align: center;    
+}
+
+.container {
+display: flex;
+}
+  
+.functions {
+flex-basis: 30%;
+padding-right: 20px;
+}
+
+.row-gallery {
+flex-basis: 70%;
+}
+
+.hide {
+display: none;
+}
+
+.menu-body {
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
+position: relative;
+padding: 0 20px 20px 20px;
+height: calc(100vh - 52px);
+padding-bottom: 150px;
+}
+.site-nav-wrap {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+.site-nav-wrap > li {
+display: block;
+position: relative;
+float: left;
+width: 100%;
+}
+
+.site-nav-wrap a {
+padding: 10px 20px;
+display: block;
+position: relative;
+color: #212529;
+}
+
+.nav-link {
+display: block;
+padding: 0.5rem 1rem;
+}
+
+:root{
+    /* color type A */
+    --line_color : #555555 ;
+    --back_color : #FFECF6  ;
+
+    /* color type B */
+    /* --line_color : #1b1919 ;
+    --back_color : #E9ECFF  ; */
+
+    /* color type C */
+    /* --line_color : #00135C ;
+    --back_color : #DEFFFA  ; */
+}
+
+.upload {
+background-image: hide;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Numans', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.buttonbig {
+display: inline-block;
+background-color: #24a0ed;
+padding: 30px;
+width: 200px;
+height:100px;
+color: #000000;
+text-align: center;
+font-size: 28px;
+cursor: pointer; /* add this line */
+margin: 5px; /* add this line */
+order: -1;
+font-family: 'Numans', sans-serif;
+}
+
+.buttonsmall {
+display: inline-block;
+background-color: #FFC312;
+padding: 20px;
+width: 200px;
+height:50px;
+color: #000000;
+text-align: center;
+font-size: 12px;
+cursor: pointer; /* add this line */
+margin: 5px; /* add this line */
+font-family: 'Numans', sans-serif;
+}
+
+.buttonkeep {
+    display: inline-block;
+    background-color: #48A14D;
+    padding: 20px;
+    width: 200px;
+    height:50px;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer; /* add this line */
+    margin: 5px; /* add this line */
+    font-family: 'Numans', sans-serif;
+    }
+
+.buttondelete {
+display: inline-block;
+background-color: #8B0000;
+padding: 20px;
+width: 200px;
+height:50px;
+color: #000000;
+text-align: center;
+font-size: 12px;
+cursor: pointer; /* add this line */
+margin: 5px; /* add this line */
+font-family: 'Numans', sans-serif;
+}
+
+.image-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.image-buttons button {
+    margin: 0 5px;
+}
